@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h4,
+p {
+  margin: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+  margin: 10px;
+}
+
+.container {
+  width: 250px;
+}
+
+.item {
+  background-color: #ced4da;
+  margin-bottom: 10px;
+  border: 1px solid #adb5bd;
+  overflow: hidden;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

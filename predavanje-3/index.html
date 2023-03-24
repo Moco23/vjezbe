@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1,
+      h3 {
+        color: burlywood;
+        text-decoration: line-through;
+      }
+      .plavaPozadina {
+        background-color: lightskyblue;
+      }
+      .codingImg {
+        height: auto;
+        width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- example of inline-css -->
+    <p
+      style="
+        background-color: #000;
+        color: royalblue;
+        font-weight: bold;
+        text-align: center;
+      "
+    >
+      Pozdrav
+    </p>
+
+    <!-- example of interminal-xss -->
+    <h1 class="plavaPozadina">Hellooo</h1>
+    <h3 class="plavaPozadina">Ovja tekst je precrtan</h3>
+    <h3 class="plavaPozadina">Ovja tekst je precrtan</h3>
+
+    <!-- example of image sizing with class -->
+    <img src="coding-img.jpg" alt="Image of coding" class="codingImg" />
+  </body>
+</html>
