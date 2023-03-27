@@ -25,11 +25,12 @@ button {
   margin: 10px;
 }
 
-.container {
-  width: 250px;
+.centerContainer {
+  text-align: center;
 }
 
 .item {
+  display: inline-block;
   background-color: #ced4da;
   margin-bottom: 10px;
   border: 1px solid #adb5bd;
