@@ -1,0 +1,22 @@
+.inlineBlock {
+  display: inline-block;
+}
+
+.flexBox {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+}
+
+.manInlineBlock {
+  text-align: center;
+  padding-top: 200px;
+  background-color: #000;
+  color: #fff;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}

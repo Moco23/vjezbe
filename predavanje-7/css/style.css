@@ -15,8 +15,8 @@ html {
 }
 
 .item {
-  background-color: rgb(146, 140, 140);
   display: inline-block;
+  background-color: rgb(146, 140, 140);
 }
 
 h4 {

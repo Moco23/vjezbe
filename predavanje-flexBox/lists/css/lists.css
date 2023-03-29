@@ -1,0 +1,23 @@
+.ulSquer {
+  display: flex;
+  gap: 20px;
+  list-style: square;
+}
+
+.romanStyle {
+  list-style: upper-roman;
+}
+
+.frontEnd {
+  list-style: upper-alpha;
+}
+
+.backEnd {
+  list-style: upper-roman;
+}
+
+.insideList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
