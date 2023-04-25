@@ -26,6 +26,24 @@ html {
   height: auto;
 }
 
+.buyBtn {
+  width: 15rem;
+  display: block;
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  transition: 0.5s;
+  padding: 1rem 1.5rem;
+  text-align: center;
+}
+
+.buyBtn:hover {
+  background: #fff;
+  color: #000;
+  border: 0.1rem solid #000;
+}
+
+/* form section */
 .formSection {
   display: grid;
   height: 100vh;
@@ -60,10 +78,18 @@ html {
   .product {
     width: 30%;
   }
+
+  .buyBtn {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 640px) {
   .product {
     width: 85%;
+  }
+
+  .buyBtn {
+    width: 100%;
   }
 }
