@@ -45,6 +45,7 @@ html {
 
 /* form section */
 .formSection {
+  width: 100%;
   display: grid;
   height: 100vh;
   justify-content: center;
@@ -53,8 +54,8 @@ html {
 }
 
 .form {
-  padding: 2rem;
   width: 35rem;
+  padding: 2rem;
   background-color: #827d7d;
 }
 
@@ -63,6 +64,10 @@ html {
   display: flex;
   flex-direction: column;
   color: #fff;
+}
+
+.emailSubscription {
+  margin-bottom: 1rem;
 }
 
 .submitBtn {
