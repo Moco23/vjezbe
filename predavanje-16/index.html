@@ -17,6 +17,44 @@
     <title>boostrap</title>
   </head>
   <body>
+    <!-- leyouts 1 -->
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div
+          class="col-12 d-flex flex-column bg-dark justify-content-center align-items-center qubs_400"
+        >
+          <h1 class="text-white">Proba</h1>
+          <button
+            class="btn btn-primary"
+            data-bs-target="#exampleModalToggle"
+            data-bs-toggle="modal"
+          >
+            about
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-6 bg-danger d-flex justify-content-center align-items-center qubs_400"
+        >
+          <h1>a</h1>
+        </div>
+        <div
+          class="col-6 bg-primary d-flex justify-content-center align-items-center qubs_400"
+        >
+          <h1>a</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-12 bg-dark d-flex justify-content-center align-items-center qubs_400"
+        >
+          <h1 class="text-white">proba</h1>
+        </div>
+      </div>
+    </div>
+    <!-- leyouts 1 -->
+
     <!-- slider -->
     <div class="container">
       <div id="carouselExample" class="carousel slide">
@@ -83,11 +121,53 @@
       </div>
     </section>
 
+    <!-- bs models -->
+    <div
+      class="modal fade"
+      id="exampleModalToggle"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">
+              Read more
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, magni, rerum quos distinctio velit quia autem nemo dolorum dolorem odio, eligendi consequuntur enim doloribus! Fugiat nemo quos voluptates alias asperiores.</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#exampleModalToggle2"
+              data-bs-toggle="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- bs models -->
+
+    <!-- footer -->
     <footer
       class="bg-dark p-5 text-info d-flex justify-content-center align-items-center"
     >
       <h3 class="m-0">Copyright &copy; Momcilo Nikolic</h3>
     </footer>
+    <!-- footer -->
+
     <!-- boostrap scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
